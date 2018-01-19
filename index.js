@@ -24,4 +24,5 @@ function currentLine(katzDeliLine){
       curLine = curLine + (x+1) + ". " + katzDeliLine[x];
     }
   }
+  return curLine;
 }
